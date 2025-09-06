@@ -1,0 +1,80 @@
+2025-09-06 12:48:16.544  INFO 13196 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Starting ApiRestJuanApplication using Java 11.0.28 on matudev with PID 13196 (C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan\target\classes started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 12:48:16.550 DEBUG 13196 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 12:48:16.552  INFO 13196 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 12:48:18.906  INFO 13196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-06 12:48:18.933  INFO 13196 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-06 12:48:18.934  INFO 13196 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2025-09-06 12:48:19.173  INFO 13196 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-06 12:48:19.174  INFO 13196 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2526 ms
+2025-09-06 12:48:20.096  INFO 13196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-06 12:48:20.130  INFO 13196 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Started ApiRestJuanApplication in 4.567 seconds (JVM running for 5.486)
+2025-09-06 12:52:36.872  INFO 8992 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Starting ApiRestJuanApplication using Java 11.0.28 on matudev with PID 8992 (C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan\target\classes started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 12:52:36.877 DEBUG 8992 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 12:52:36.878  INFO 8992 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 12:52:38.928  INFO 8992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-06 12:52:38.948  INFO 8992 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-06 12:52:38.949  INFO 8992 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2025-09-06 12:52:39.150  INFO 8992 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-06 12:52:39.151  INFO 8992 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2186 ms
+2025-09-06 12:52:39.839  INFO 8992 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-06 12:52:39.856  INFO 8992 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Started ApiRestJuanApplication in 3.766 seconds (JVM running for 4.597)
+2025-09-06 12:53:00.352  INFO 8992 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-06 12:53:00.354  INFO 8992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-06 12:53:00.358  INFO 8992 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-09-06 12:53:00.693  INFO 8992 --- [http-nio-8080-exec-1] c.juan.apirestjuan.service.UserService   : Creating User => com.juan.apirestjuan.model.User@205ddd85
+2025-09-06 12:54:21.318  INFO 20744 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Starting ApiRestJuanApplication using Java 11.0.28 on matudev with PID 20744 (C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan\target\classes started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 12:54:21.324 DEBUG 20744 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 12:54:21.325  INFO 20744 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 12:54:23.465  INFO 20744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-06 12:54:23.488  INFO 20744 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-06 12:54:23.489  INFO 20744 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2025-09-06 12:54:23.700  INFO 20744 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-06 12:54:23.701  INFO 20744 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2270 ms
+2025-09-06 12:54:24.417  INFO 20744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-06 12:54:24.444  INFO 20744 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Started ApiRestJuanApplication in 4.216 seconds (JVM running for 5.599)
+2025-09-06 12:54:31.403  INFO 20744 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-06 12:54:31.405  INFO 20744 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-06 12:54:31.408  INFO 20744 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-09-06 12:54:31.610  INFO 20744 --- [http-nio-8080-exec-1] c.juan.apirestjuan.service.UserService   : Creating User => com.juan.apirestjuan.model.User@35d2695c
+2025-09-06 12:57:10.726  INFO 24332 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Starting ApiRestJuanApplication using Java 11.0.28 on matudev with PID 24332 (C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan\target\classes started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 12:57:10.734 DEBUG 24332 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 12:57:10.737  INFO 24332 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 12:57:13.137  INFO 24332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-06 12:57:13.155  INFO 24332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-06 12:57:13.156  INFO 24332 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2025-09-06 12:57:13.386  INFO 24332 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-06 12:57:13.388  INFO 24332 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2508 ms
+2025-09-06 12:57:14.328  INFO 24332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-06 12:57:14.355  INFO 24332 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Started ApiRestJuanApplication in 5.223 seconds (JVM running for 6.787)
+2025-09-06 12:57:41.282  INFO 24332 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-06 12:57:41.286  INFO 24332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-06 12:57:41.289  INFO 24332 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-09-06 12:57:41.559  INFO 24332 --- [http-nio-8080-exec-1] c.juan.apirestjuan.service.UserService   : Creating User => com.juan.apirestjuan.model.User@1cf7e390
+2025-09-06 12:59:06.539  INFO 1428 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Starting ApiRestJuanApplication using Java 11.0.28 on matudev with PID 1428 (C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan\target\classes started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 12:59:06.544 DEBUG 1428 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 12:59:06.546  INFO 1428 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 12:59:08.793  INFO 1428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-06 12:59:08.812  INFO 1428 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-06 12:59:08.812  INFO 1428 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2025-09-06 12:59:08.998  INFO 1428 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-06 12:59:08.999  INFO 1428 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2348 ms
+2025-09-06 12:59:09.616  INFO 1428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-06 12:59:09.640  INFO 1428 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Started ApiRestJuanApplication in 4.151 seconds (JVM running for 4.961)
+2025-09-06 12:59:18.050  INFO 1428 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-06 12:59:18.053  INFO 1428 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-06 12:59:18.055  INFO 1428 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-06 12:59:18.335  INFO 1428 --- [http-nio-8080-exec-2] c.juan.apirestjuan.service.UserService   : Creating User => com.juan.apirestjuan.model.User@433aa334
+2025-09-06 13:16:47.308  INFO 23856 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Starting ApiRestJuanApplication using Java 11.0.28 on matudev with PID 23856 (C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan\target\classes started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 13:16:47.312 DEBUG 23856 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 13:16:47.314  INFO 23856 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 13:16:50.300  INFO 23856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-06 13:16:50.369  INFO 23856 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-06 13:16:50.379  INFO 23856 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2025-09-06 13:16:50.686  INFO 23856 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-06 13:16:50.688  INFO 23856 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3292 ms
+2025-09-06 13:16:51.459  INFO 23856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-06 13:16:51.482  INFO 23856 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Started ApiRestJuanApplication in 5.082 seconds (JVM running for 6.074)
+2025-09-06 13:17:04.085  INFO 23856 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-06 13:17:04.087  INFO 23856 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-06 13:17:04.088  INFO 23856 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-06 13:17:04.157  INFO 23856 --- [http-nio-8080-exec-2] c.juan.apirestjuan.service.UserService   : Get all users => [com.juan.apirestjuan.model.User@753f293a, com.juan.apirestjuan.model.User@3b9abcba, com.juan.apirestjuan.model.User@51b72490]

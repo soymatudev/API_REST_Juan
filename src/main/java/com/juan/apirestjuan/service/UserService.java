@@ -5,6 +5,9 @@ import com.juan.apirestjuan.model.Address;
 import com.juan.apirestjuan.util.TimeUtil;
 import com.juan.apirestjuan.util.ValidatorUtil;
 import com.juan.apirestjuan.util.AESUtil;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.IvParameterSpec;
@@ -15,6 +18,7 @@ import java.util.*;
 
 @Service
 public class UserService {
+    private static final Logger printLog = LoggerFactory.getLogger(UserService.class);
     private final List<User> users =  new ArrayList<>();
     private Long idCounter = 1L;
     private SecretKey key = null;
@@ -33,35 +37,30 @@ public class UserService {
     }
 
     public List<User> getAllUsers(){
+        printLog.info("Get all users => {}", users);
         return users;
     }
 
     public Optional<User> getUserById(Long id) {
+        printLog.info("Getting Users");
         return users.stream().filter(u -> u.getId().equals(id)).findFirst();
     }
 
     public User createUser(User user) throws Exception {
-        if (!ValidatorUtil.isValidFormatTax_id(user.getTax_id())){
-            //throw new IllegalArgumentException("Tax_id no cumple con el formato RFC");
-            user.setTax_id("AARR990101XXX");
-        }
-        if (ValidatorUtil.isValidUniqueTax_id(users,  user.getTax_id())) {
-            //throw new IllegalArgumentException("El Tax_Id ya existe en la Base de Datos");
-            user.setTax_id("AARR990101XXX");
-        }
-        if (!ValidatorUtil.isValidFormatPhone(user.getPhone())) {
-            user.setPhone("+1212555123");
-        }
+        validatorUser(user);
 
         String passwordEncrypt = this.aesUtil.getEncrypt(user.getPassword());
         user.setId(idCounter++);
         user.setCreated_at(TimeUtil.ValidCreated_at());
         user.setPassword(passwordEncrypt);
         users.add(user);
+        printLog.info("Create user correct => {}", user.toString());
         return user;
     }
 
     public Optional<User> updateUser(Long id, User updateUser) throws Exception {
+        validatorUser(updateUser);
+
         String passwordEncrypt = this.aesUtil.getEncrypt(updateUser.getPassword());
         return getUserById(id).map(user -> {
             user.setName(updateUser.getName());
@@ -69,11 +68,31 @@ public class UserService {
             user.setEmail(updateUser.getEmail());
             user.setPhone(updateUser.getPhone());
             user.setAddress(updateUser.getAddress());
+            printLog.info("Successfully created user => {}", user.toString());
             return user;
         });
     }
 
+    public void validatorUser(User user) {
+        if (!ValidatorUtil.isValidFormatTax_id(user.getTax_id())){
+            printLog.info("Tax_id does not comply with the RFC format, Set Gen => {} - AARR990101XXX", user.getTax_id());
+            user.setTax_id("AARR990101XXX");
+            throw new IllegalArgumentException("Tax_id does not comply with the RFC format, Set Gen");
+        }
+        if (ValidatorUtil.isValidUniqueTax_id(users,  user.getTax_id())) {
+            printLog.info("The Tax_Id already exists in the Database, set Gen => {} - AARR990101XXX", user.getTax_id());
+            user.setTax_id("AARR990101XXX");
+            throw new IllegalArgumentException("The Tax_Id already exists in the Database");
+        }
+        if (!ValidatorUtil.isValidFormatPhone(user.getPhone())) {
+            printLog.info("Phone does not comply with the format, set Gen => {} - +1212555123", user.getPhone());
+            user.setPhone("+1212555123");
+            throw new IllegalArgumentException("Phone does not comply with the format");
+        }
+    }
+
     public boolean deleteUser(Long id) {
+        printLog.info("Delete user by id => {}", id);
         return users.removeIf(u -> u.getId().equals(id));
     }
 
@@ -137,8 +156,8 @@ public class UserService {
 
     public List<User> getUsersByFilter(String keyValue) throws NoSuchMethodException {
         if(!ValidatorUtil.isValidFormatKeyFilter(keyValue)){
-            System.out.println(keyValue);
-            throw new IllegalArgumentException("El filtro no tiene el formato correcto");
+            printLog.error("Not Format Filter - Ex: filter+co+value", keyValue);
+            throw new IllegalArgumentException("The filter is not in the correct format");
         }
 
         List<String> filterValues = Arrays.asList(keyValue.split(" "));
