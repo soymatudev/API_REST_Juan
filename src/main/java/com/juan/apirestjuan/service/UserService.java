@@ -9,6 +9,8 @@ import org.springframework.stereotype.Service;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.IvParameterSpec;
 
+import java.lang.reflect.Method;
+import java.util.stream.Collectors;
 import java.util.*;
 
 @Service
@@ -48,7 +50,7 @@ public class UserService {
             user.setTax_id("AARR990101XXX");
         }
         if (!ValidatorUtil.isValidFormatPhone(user.getPhone())) {
-            user.setPhone("+");
+            user.setPhone("+1212555123");
         }
 
         String passwordEncrypt = this.aesUtil.getEncrypt(user.getPassword());
@@ -131,6 +133,51 @@ public class UserService {
     private List<User> sortByCreated_at(List<User> usersList) {
         usersList.sort(Comparator.comparing(User::getCreated_at));
         return usersList;
+    }
+
+    public List<User> getUsersByFilter(String keyValue) throws NoSuchMethodException {
+        if(!ValidatorUtil.isValidFormatKeyFilter(keyValue)){
+            System.out.println(keyValue);
+            throw new IllegalArgumentException("El filtro no tiene el formato correcto");
+        }
+
+        List<String> filterValues = Arrays.asList(keyValue.split(" "));
+        String filterBy = filterValues.get(0);
+        String filterQuery = filterValues.get(1);
+        String filterValue = filterValues.get(2);
+        Class<String> stringClass = String.class;
+        Method methodFilter;
+
+        String fieldName = filterBy.substring(0, 1).toUpperCase() + filterBy.substring(1); // Ex: email -> Email
+        Method getter = User.class.getMethod("get" + fieldName);
+
+        switch (filterQuery.toLowerCase()) {
+            case "co":
+                methodFilter = stringClass.getMethod("contains", CharSequence.class);
+                break;
+            case "eq":
+                methodFilter = stringClass.getMethod("equals", Object.class);
+                break;
+            case "sw":
+                methodFilter = stringClass.getMethod("startsWith", String.class);
+                break;
+            case "ew":
+                methodFilter = stringClass.getMethod("endsWith", String.class);
+                break;
+            default:
+                methodFilter = stringClass.getMethod("contains", CharSequence.class);
+                break;
+        }
+        return users.stream().filter(u -> {
+                    try {
+                        Object fieldValue = getter.invoke(u);
+                        if (fieldValue == null) return false;
+                        return (boolean) methodFilter.invoke(fieldValue, filterValue);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                        return false;
+                    }
+                }).collect(Collectors.toList());
     }
 
 }

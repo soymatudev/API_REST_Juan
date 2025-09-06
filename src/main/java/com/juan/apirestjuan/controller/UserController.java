@@ -47,10 +47,11 @@ public class UserController {
     }
 
     @GetMapping
-    public List<User> getUsersBySorting(@RequestParam(required = false) String sortedBy) {
+    public List<User> getUsersBySorting(
+            @RequestParam(required = false, name = "sortedBy") String sortedBy,
+            @RequestParam(required = false, name = "filter") String filter) throws Exception  {
+        if(sortedBy != null) return userService.getUsersBySorting(sortedBy);
+        if(filter != null) return userService.getUsersByFilter(filter);
         return userService.getUsersBySorting(sortedBy);
     }
-
-
-
 }
