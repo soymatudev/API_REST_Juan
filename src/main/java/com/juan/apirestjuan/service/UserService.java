@@ -96,9 +96,17 @@ public class UserService {
         return users.removeIf(u -> u.getId().equals(id));
     }
 
-    public Optional<User> login(String name, String password) {
+    public Optional<User> login(String username, String password) {
         return users.stream()
-                .filter(u -> u.getName().equals(name) && u.getPassword().equals(password))
+                .filter(u -> {
+                    try {
+                        printLog.info("Checking user access => {}, passReady = {}, passset = {}", username, this.aesUtil.getDecrypt(u.getPassword()), password);
+                        return u.getTax_id().equals(username) && this.aesUtil.getDecrypt(u.getPassword()).equals(password);
+                    } catch (Exception e) {
+                        printLog.info("Error => {}", e.getMessage());
+                        throw new RuntimeException(e);
+                    }
+                })
                 .findFirst();
     }
 

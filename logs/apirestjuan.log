@@ -78,3 +78,52 @@
 2025-09-06 13:17:04.087  INFO 23856 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2025-09-06 13:17:04.088  INFO 23856 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2025-09-06 13:17:04.157  INFO 23856 --- [http-nio-8080-exec-2] c.juan.apirestjuan.service.UserService   : Get all users => [com.juan.apirestjuan.model.User@753f293a, com.juan.apirestjuan.model.User@3b9abcba, com.juan.apirestjuan.model.User@51b72490]
+2025-09-06 13:24:30.660  INFO 14356 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Starting ApiRestJuanApplication using Java 11.0.28 on matudev with PID 14356 (C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan\target\classes started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 13:24:30.667 DEBUG 14356 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 13:24:30.668  INFO 14356 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 13:24:34.482  INFO 14356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-06 13:24:34.511  INFO 14356 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-06 13:24:34.512  INFO 14356 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2025-09-06 13:24:34.806  INFO 14356 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-06 13:24:34.807  INFO 14356 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4008 ms
+2025-09-06 13:24:35.656  INFO 14356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-06 13:24:35.681  INFO 14356 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Started ApiRestJuanApplication in 6.295 seconds (JVM running for 7.774)
+2025-09-06 13:28:55.716  INFO 21512 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Starting ApiRestJuanApplication using Java 11.0.28 on matudev with PID 21512 (C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan\target\classes started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 13:28:55.721 DEBUG 21512 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 13:28:55.723  INFO 21512 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 13:28:57.969  INFO 21512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-06 13:28:57.989  INFO 21512 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-06 13:28:57.990  INFO 21512 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2025-09-06 13:28:58.192  INFO 21512 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-06 13:28:58.192  INFO 21512 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2357 ms
+2025-09-06 13:28:58.929  INFO 21512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-06 13:28:58.957  INFO 21512 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Started ApiRestJuanApplication in 4.158 seconds (JVM running for 5.034)
+2025-09-06 13:29:29.703  INFO 21512 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-06 13:29:29.705  INFO 21512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-06 13:29:29.708  INFO 21512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-06 13:29:29.855  INFO 21512 --- [http-nio-8080-exec-1] c.juan.apirestjuan.service.UserService   : Checking user access => admin
+2025-09-06 13:29:29.858  INFO 21512 --- [http-nio-8080-exec-1] c.juan.apirestjuan.service.UserService   : Checking user access => admin
+2025-09-06 13:29:29.859  INFO 21512 --- [http-nio-8080-exec-1] c.juan.apirestjuan.service.UserService   : Checking user access => admin
+2025-09-06 13:35:23.910  INFO 20116 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Starting ApiRestJuanApplication using Java 11.0.28 on matudev with PID 20116 (C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan\target\classes started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 13:35:23.915 DEBUG 20116 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 13:35:23.918  INFO 20116 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 13:35:26.446  INFO 20116 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-06 13:35:26.470  INFO 20116 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-06 13:35:26.471  INFO 20116 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2025-09-06 13:35:26.691  INFO 20116 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-06 13:35:26.692  INFO 20116 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2673 ms
+2025-09-06 13:35:27.504  INFO 20116 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-06 13:35:27.526  INFO 20116 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Started ApiRestJuanApplication in 4.602 seconds (JVM running for 5.481)
+2025-09-06 13:35:44.794  INFO 20116 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-06 13:35:44.796  INFO 20116 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-06 13:35:44.799  INFO 20116 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-09-06 13:35:44.968  INFO 20116 --- [http-nio-8080-exec-3] c.juan.apirestjuan.service.UserService   : Checking user access => admin, passReady = admin, passset = admin
+2025-09-06 13:35:44.971  INFO 20116 --- [http-nio-8080-exec-3] c.juan.apirestjuan.service.UserService   : Checking user access => admin, passReady = admin, passset = admin
+2025-09-06 13:35:44.973  INFO 20116 --- [http-nio-8080-exec-3] c.juan.apirestjuan.service.UserService   : Checking user access => admin, passReady = admin, passset = admin
+2025-09-06 13:36:38.252  INFO 20116 --- [http-nio-8080-exec-2] c.juan.apirestjuan.service.UserService   : Checking user access => GAMJ0501147Z4, passReady = admin, passset = admin
+2025-09-06 13:37:11.506  INFO 20116 --- [http-nio-8080-exec-4] c.juan.apirestjuan.service.UserService   : Checking user access => APMJ0501147Z4, passReady = admin, passset = a
+2025-09-06 13:37:11.507  INFO 20116 --- [http-nio-8080-exec-4] c.juan.apirestjuan.service.UserService   : Checking user access => APMJ0501147Z4, passReady = admin, passset = a
+2025-09-06 13:37:11.509  INFO 20116 --- [http-nio-8080-exec-4] c.juan.apirestjuan.service.UserService   : Checking user access => APMJ0501147Z4, passReady = admin, passset = a
+2025-09-06 13:37:22.370  INFO 20116 --- [http-nio-8080-exec-5] c.juan.apirestjuan.service.UserService   : Checking user access => APMJ0501147Z4, passReady = admin, passset = admin
+2025-09-06 13:37:22.372  INFO 20116 --- [http-nio-8080-exec-5] c.juan.apirestjuan.service.UserService   : Checking user access => APMJ0501147Z4, passReady = admin, passset = admin
+2025-09-06 13:37:22.374  INFO 20116 --- [http-nio-8080-exec-5] c.juan.apirestjuan.service.UserService   : Checking user access => APMJ0501147Z4, passReady = admin, passset = admin

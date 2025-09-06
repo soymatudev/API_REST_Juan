@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/auth")
+@RequestMapping("/login")
 public class AuthController {
     private final UserService userService;
 
@@ -15,7 +15,7 @@ public class AuthController {
         this.userService = userService;
     }
 
-    @PostMapping("/login")
+    @PostMapping
     public ResponseEntity<?> login(@RequestBody Map<String, String> credentials) {
         String name = credentials.get("name");
         String password = credentials.get("password");
