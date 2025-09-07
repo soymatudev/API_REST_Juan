@@ -29,11 +29,16 @@ public class UserService {
         this.aesUtil = new AESUtil();
 
         String passwordEncrypt = this.aesUtil.getEncrypt("admin");
-        List<Address> addresses = new ArrayList<>();
-        addresses.add(new Address(1L, "Casa", "Calle 123", "UK"));
-        users.add(new User(idCounter++, "Admin", passwordEncrypt, "GAFA980602F82", "admin@gmail.com", "+5211223344", addresses, TimeUtil.ValidCreated_at()));
-        users.add(new User(idCounter++, "Juan", passwordEncrypt, "GFFR980602F83", "juan@gmail.com", "+5211223344", addresses, TimeUtil.ValidCreated_at()));
-        users.add(new User(idCounter++, "Zian", passwordEncrypt, "APMJ03005g47Z4", "zian@gmail.com", "+5211223344", addresses, TimeUtil.ValidCreated_at()));
+        List<Address> addresses1 = new ArrayList<>();
+        List<Address> addresses2 = new ArrayList<>();
+
+        addresses1.add(new Address(1L, "House", "Street 123", "UK"));
+        addresses2.add(new Address(1L, "Work", "Street 456", "US"));
+        addresses2.add(new Address(2L, "House", "Street 123", "UK"));
+
+        users.add(new User(idCounter++, "Admin", passwordEncrypt, "GAFA980602F82", "admin@gmail.com", "+5211223344", addresses1, TimeUtil.ValidCreated_at()));
+        users.add(new User(idCounter++, "Juan", passwordEncrypt, "GFFR980602F83", "juan@gmail.com", "+5211223344", addresses2, TimeUtil.ValidCreated_at()));
+        users.add(new User(idCounter++, "Zian", passwordEncrypt, "APMJ03005g47Z4", "zian@gmail.com", "+5211223344", addresses2, TimeUtil.ValidCreated_at()));
     }
 
     public List<User> getAllUsers(){
