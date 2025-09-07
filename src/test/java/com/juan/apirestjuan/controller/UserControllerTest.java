@@ -36,7 +36,7 @@ class UserControllerTest {
     public void testGetAllUsers() throws Exception {
         List<Address> addresses = new ArrayList<>();;
         addresses.add(new Address(1L, "House", "Street Siempre viva 123", "UK"));
-        User user = new User(idCounter++, "Juan", "juan", "GAFA980602F82", "myemailtest@test.com", "+52 1122 3344", addresses, TimeUtil.ValidCreated_at());
+        User user = new User(idCounter++, "Juan", "juan", "GAFA980602F82", "myemailtest@test.com", "+1212555123", addresses, TimeUtil.ValidCreated_at());
 
         Mockito.when(userService.getUsersBySorting(Mockito.anyString()))
                         .thenReturn(Collections.singletonList(user));
@@ -51,7 +51,7 @@ class UserControllerTest {
     public void testCreateUser() throws Exception {
         List<Address> addresses = new ArrayList<>();;
         addresses.add(new Address(1L, "House", "Street Siempre viva 123", "UK"));
-        User user = new User(idCounter++, "Juan", "juan", "GAFA980602F82", "myemailtest@test.com", "+52 1122 3344", addresses, TimeUtil.ValidCreated_at());
+        User user = new User(idCounter++, "Juan", "juan", "GAFA980602F82", "myemailtest@test.com", "+1212555123", addresses, TimeUtil.ValidCreated_at());
 
         Mockito.when(userService.createUser(Mockito.any(User.class))).thenReturn(user);
 
@@ -67,8 +67,8 @@ class UserControllerTest {
     public void testUpdateUser() throws Exception {
         List<Address> addresses = new ArrayList<>();;
         addresses.add(new Address(1L, "House", "Street Siempre viva 123", "UK"));
-        User user = new User(idCounter++, "Juan", "juan", "GAFA980602F82", "myemailtest@test.com", "+52 1122 3344", addresses, TimeUtil.ValidCreated_at());
-        User userUpdated = new User(idCounter++, "Ana", "ana", "GAFA980602F82", "myemailtest@test.com", "+52 1122 3344", addresses, TimeUtil.ValidCreated_at());
+        User user = new User(idCounter++, "Juan", "juan", "GAFA980602F82", "myemailtest@test.com", "+5211223344", addresses, TimeUtil.ValidCreated_at());
+        User userUpdated = new User(idCounter++, "Ana", "ana", "GAFA980602F82", "myemailtest@test.com", "+5211223344", addresses, TimeUtil.ValidCreated_at());
 
         Mockito.when(userService.createUser(Mockito.any(User.class))).thenReturn(user);
         Mockito.when(userService.updateUser(Mockito.anyLong(), Mockito.any(User.class)))
@@ -86,8 +86,8 @@ class UserControllerTest {
     public void testDeleteUser() throws Exception {
         List<Address> addresses = new ArrayList<>();;
         addresses.add(new Address(1L, "House", "Street Siempre viva 123", "UK"));
-        User user = new User(idCounter++, "Juan", "juan", "GAFA980602F82", "myemailtest@test.com", "+52 1122 3344", addresses, TimeUtil.ValidCreated_at());
-        User userUpdated = new User(idCounter++, "Ana", "ana", "GAFA980602F82", "myemailtest@test.com", "+52 1122 3344", addresses, TimeUtil.ValidCreated_at());
+        User user = new User(idCounter++, "Juan", "juan", "GAFA980602F82", "myemailtest@test.com", "+5211223344", addresses, TimeUtil.ValidCreated_at());
+        User userUpdated = new User(idCounter++, "Ana", "ana", "GAFA980602F82", "myemailtest@test.com", "+5211223344", addresses, TimeUtil.ValidCreated_at());
 
         Mockito.when(userService.createUser(Mockito.any(User.class))).thenReturn(user);
         Mockito.when(userService.createUser(Mockito.any(User.class))).thenReturn(userUpdated);
@@ -104,7 +104,7 @@ class UserControllerTest {
     public void testFilterUsersByEmail() throws Exception {
         List<Address> addresses = new ArrayList<>();;
         addresses.add(new Address(1L, "House", "Street Siempre viva 123", "UK"));
-        User user = new User(idCounter++, "Juan", "juan", "GAFA980602F82", "myemailtest@test.com", "+52 1122 3344", addresses, TimeUtil.ValidCreated_at());
+        User user = new User(idCounter++, "Juan", "juan", "GAFA980602F82", "myemailtest@test.com", "+5211223344", addresses, TimeUtil.ValidCreated_at());
 
         Mockito.when(userService.getUsersByFilter(Mockito.anyString()))
                 .thenReturn(Collections.singletonList(user));
