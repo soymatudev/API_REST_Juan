@@ -834,3 +834,33 @@ java.lang.IllegalArgumentException: The Tax_Id already exists in the Database
 2025-09-06 20:08:28.615  INFO 7280 --- [http-nio-8080-exec-6] c.juan.apirestjuan.service.UserService   : Checking user access => APMJ0501147Z4, passReady = admin, passset = zian
 2025-09-06 20:08:54.480  INFO 7280 --- [http-nio-8080-exec-7] c.juan.apirestjuan.service.UserService   : Checking user access => APMJ0300547Z4, passReady = admin, passset = admin
 2025-09-06 20:08:54.482  INFO 7280 --- [http-nio-8080-exec-7] c.juan.apirestjuan.service.UserService   : Checking user access => APMJ0300547Z4, passReady = admin, passset = admin
+2025-09-06 21:29:35.604  INFO 13260 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Starting ApiRestJuanApplication using Java 11.0.28 on matudev with PID 13260 (C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan\target\classes started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 21:29:35.608 DEBUG 13260 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 21:29:35.610  INFO 13260 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 21:29:37.470  INFO 13260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-06 21:29:37.490  INFO 13260 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-06 21:29:37.490  INFO 13260 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2025-09-06 21:29:37.680  INFO 13260 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-06 21:29:37.681  INFO 13260 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1991 ms
+2025-09-06 21:29:38.297  INFO 13260 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-06 21:29:38.313  INFO 13260 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Started ApiRestJuanApplication in 3.471 seconds (JVM running for 4.171)
+2025-09-06 21:30:01.753  INFO 15892 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 15892 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 21:30:01.757 DEBUG 15892 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 21:30:01.759  INFO 15892 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 21:30:06.886  INFO 15892 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 21:30:06.887  INFO 15892 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 21:30:06.892  INFO 15892 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2025-09-06 21:30:07.002  INFO 15892 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 7.187 seconds (JVM running for 10.334)
+2025-09-06 21:30:08.895  INFO 15892 --- [main] c.juan.apirestjuan.service.UserService   : Get all users => [com.juan.apirestjuan.model.User@22b7ef2b, com.juan.apirestjuan.model.User@6d421fe, com.juan.apirestjuan.model.User@3c17bd0b]
+2025-09-06 21:30:08.908  INFO 15892 --- [main] c.juan.apirestjuan.service.UserService   : Getting Users
+2025-09-06 21:30:08.910  INFO 15892 --- [main] c.juan.apirestjuan.service.UserService   : Successfully created user => com.juan.apirestjuan.model.User@30ec211a
+2025-09-06 21:30:08.917  INFO 15892 --- [main] c.juan.apirestjuan.service.UserService   : Get all users => [com.juan.apirestjuan.model.User@505d2bac, com.juan.apirestjuan.model.User@4cecc15a, com.juan.apirestjuan.model.User@d969452]
+2025-09-06 21:30:08.918  INFO 15892 --- [main] c.juan.apirestjuan.service.UserService   : Get all users => [com.juan.apirestjuan.model.User@505d2bac, com.juan.apirestjuan.model.User@4cecc15a, com.juan.apirestjuan.model.User@d969452]
+2025-09-06 21:30:08.925  INFO 15892 --- [main] c.juan.apirestjuan.service.UserService   : Create user correct => com.juan.apirestjuan.model.User@5e385b6f
+2025-09-06 21:30:08.926  INFO 15892 --- [main] c.juan.apirestjuan.service.UserService   : Get all users => [com.juan.apirestjuan.model.User@67b560fe, com.juan.apirestjuan.model.User@45dde6ac, com.juan.apirestjuan.model.User@14ed7ddf, com.juan.apirestjuan.model.User@5e385b6f]
+2025-09-06 21:30:08.930  INFO 15892 --- [main] c.juan.apirestjuan.service.UserService   : Get all users => [com.juan.apirestjuan.model.User@892af0e, com.juan.apirestjuan.model.User@446c8c72, com.juan.apirestjuan.model.User@6e2eead5]
+2025-09-06 21:30:08.931  INFO 15892 --- [main] c.juan.apirestjuan.service.UserService   : Delete user by id => 1
+2025-09-06 21:30:08.933  INFO 15892 --- [main] c.juan.apirestjuan.service.UserService   : Getting Users
+2025-09-06 21:30:08.938  INFO 15892 --- [main] c.juan.apirestjuan.service.UserService   : Get all users => [com.juan.apirestjuan.model.User@ca546a1, com.juan.apirestjuan.model.User@2c8a445b, com.juan.apirestjuan.model.User@356b6b5d]
+2025-09-06 21:30:08.939  INFO 15892 --- [main] c.juan.apirestjuan.service.UserService   : Getting Users
+2025-09-06 21:30:08.945  INFO 15892 --- [main] c.juan.apirestjuan.service.UserService   : Create user correct => com.juan.apirestjuan.model.User@37b1149b
