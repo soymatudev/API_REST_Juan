@@ -1,0 +1,199 @@
+{
+	"info": {
+		"_postman_id": "1f6ff6b8-edcb-416c-8e2f-0591121ddb26",
+		"name": "APIRestJuan_Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48191202",
+		"_collection_link": "https://soymatudev-4187799.postman.co/workspace/Juan-Maturana's-Workspace~b6b461cf-e8c7-4e2a-8eff-caba0a5e2266/collection/48191202-1f6ff6b8-edcb-416c-8e2f-0591121ddb26?action=share&source=collection_link&creator=48191202"
+	},
+	"item": [
+		{
+			"name": "Get Users List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Users Sorted",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/users?sortedBy=name",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					],
+					"query": [
+						{
+							"key": "sortedBy",
+							"value": "name"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Users by Filter CO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/users?filter=email+co+gmail.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					],
+					"query": [
+						{
+							"key": "filter",
+							"value": "email+co+gmail.com"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create new User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Char_Test_01\",\r\n    \"email\": \"char01@gmail.com\",\r\n    \"password\": \"juan\",\r\n    \"phone\": \"+5211223344\",\r\n    \"tax_id\": \"GAMJ0501147Z4\",\r\n    \"address\": [\r\n        {\r\n            \"id\": 1,\r\n            \"name\": \"Trabajo\",\r\n            \"street\": \"Calle siempre viva 123\",\r\n            \"country\": \"UK\"\r\n        }, \r\n        {\r\n            \"id\": 2,\r\n            \"name\": \"Trabajo\",\r\n            \"street\": \"Calle 123\",\r\n            \"country\": \"MX\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					],
+					"query": [
+						{
+							"key": null,
+							"value": "{\n        \"name\": \"juan_test_2\",\n        \"email\": \"juan01@gmail.com\",\n        \"password\": \"juan\",\n        \"phone\": \"+52 1122 3344\",\n        \"address\": [\n            {\n                \"id\": 1,\n                \"name\": \"Trabajo\",\n                \"street\": \"Calle 123\",\n                \"country\": \"México\"\n            }, \n            {\n                \"id\": 2,\n                \"name\": \"Trabajo\",\n                \"street\": \"Calle 123\",\n                \"country\": \"México\"\n            }\n        ],\n        \"created_at\": \"2025-09-05T18:38:40.216+00:00\"\n    }",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar usuario",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Actualizado\",\r\n    \"email\": \"actualizado@gmail.com\",\r\n    \"password\": \"juan\",\r\n    \"phone\": \"+5211223344\",\r\n    \"tax_id\": \"GAMJ0501147Z4\",\r\n    \"address\": [\r\n        {\r\n            \"id\": 1,\r\n            \"name\": \"Work\",\r\n            \"street\": \"Calle siempre viva 123\",\r\n            \"country\": \"UK\"\r\n        }, \r\n        {\r\n            \"id\": 2,\r\n            \"name\": \"Home\",\r\n            \"street\": \"Calle 123\",\r\n            \"country\": \"MX\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/users/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Eliminar usuario",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/users/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Autenticación de usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"APMJ0300547Z4\",\r\n  \"password\": \"admin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": "",
+			"type": "default"
+		}
+	]
+}
