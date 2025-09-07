@@ -31,9 +31,9 @@ public class UserService {
         String passwordEncrypt = this.aesUtil.getEncrypt("admin");
         List<Address> addresses = new ArrayList<>();
         addresses.add(new Address(1L, "Casa", "Calle 123", "UK"));
-        users.add(new User(idCounter++, "Admin", passwordEncrypt, "GAMJ0501147Z4", "admin@gmail.com", "+52 1122 3344", addresses, TimeUtil.ValidCreated_at()));
+        users.add(new User(idCounter++, "Admin", passwordEncrypt, "GAFA980602F82", "admin@gmail.com", "+52 1122 3344", addresses, TimeUtil.ValidCreated_at()));
         users.add(new User(idCounter++, "Juan", passwordEncrypt, "", "juan@gmail.com", "+52 1122 3344", addresses, TimeUtil.ValidCreated_at()));
-        users.add(new User(idCounter++, "Zian", passwordEncrypt, "APMJ0501147Z4", "zian@gmail.com", "+52 1122 3344", addresses, TimeUtil.ValidCreated_at()));
+        users.add(new User(idCounter++, "Zian", passwordEncrypt, "APMJ0300547Z4", "zian@gmail.com", "+52 1122 3344", addresses, TimeUtil.ValidCreated_at()));
     }
 
     public List<User> getAllUsers(){

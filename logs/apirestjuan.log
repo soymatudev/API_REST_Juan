@@ -127,3 +127,514 @@
 2025-09-06 13:37:22.370  INFO 20116 --- [http-nio-8080-exec-5] c.juan.apirestjuan.service.UserService   : Checking user access => APMJ0501147Z4, passReady = admin, passset = admin
 2025-09-06 13:37:22.372  INFO 20116 --- [http-nio-8080-exec-5] c.juan.apirestjuan.service.UserService   : Checking user access => APMJ0501147Z4, passReady = admin, passset = admin
 2025-09-06 13:37:22.374  INFO 20116 --- [http-nio-8080-exec-5] c.juan.apirestjuan.service.UserService   : Checking user access => APMJ0501147Z4, passReady = admin, passset = admin
+2025-09-06 15:21:23.552  INFO 13100 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 13100 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 15:21:23.556 DEBUG 13100 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 15:21:23.563  INFO 13100 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 15:21:29.140  INFO 13100 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 15:21:29.143  INFO 13100 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 15:21:29.146  INFO 13100 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2025-09-06 15:21:29.267  INFO 13100 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 7.898 seconds (JVM running for 11.434)
+2025-09-06 15:29:53.461  INFO 10180 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 10180 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 15:29:53.465 DEBUG 10180 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 15:29:53.468  INFO 10180 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 15:29:59.424  INFO 10180 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 15:29:59.425  INFO 10180 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 15:29:59.431  INFO 10180 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 5 ms
+2025-09-06 15:29:59.563  INFO 10180 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 8.115 seconds (JVM running for 12.389)
+2025-09-06 16:51:23.888  INFO 13328 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 13328 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 16:51:23.902 DEBUG 13328 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 16:51:23.902  INFO 13328 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 16:51:27.444  INFO 13328 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 16:51:27.444  INFO 13328 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 16:51:27.452  INFO 13328 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 8 ms
+2025-09-06 16:51:27.537  INFO 13328 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 4.654 seconds (JVM running for 6.867)
+2025-09-06 16:53:35.050  INFO 1276 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 1276 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 16:53:35.051 DEBUG 1276 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 16:53:35.052  INFO 1276 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 16:53:37.668  INFO 1276 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 16:53:37.669  INFO 1276 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 16:53:37.672  INFO 1276 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-06 16:53:37.720  INFO 1276 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.411 seconds (JVM running for 5.892)
+2025-09-06 16:54:37.205  INFO 5848 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 5848 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 16:54:37.207 DEBUG 5848 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 16:54:37.208  INFO 5848 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 16:54:40.206  INFO 5848 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 16:54:40.207  INFO 5848 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 16:54:40.211  INFO 5848 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2025-09-06 16:54:40.272  INFO 5848 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 4.237 seconds (JVM running for 5.902)
+2025-09-06 16:57:24.383  INFO 4588 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 4588 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 16:57:24.386 DEBUG 4588 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 16:57:24.388  INFO 4588 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 16:57:28.605  INFO 4588 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 16:57:28.606  INFO 4588 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 16:57:28.609  INFO 4588 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2025-09-06 16:57:28.691  INFO 4588 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 5.465 seconds (JVM running for 7.294)
+2025-09-06 16:59:05.061  INFO 7408 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 7408 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 16:59:05.063 DEBUG 7408 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 16:59:05.064  INFO 7408 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 16:59:07.759  INFO 7408 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 16:59:07.760  INFO 7408 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 16:59:07.762  INFO 7408 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-06 16:59:07.811  INFO 7408 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.592 seconds (JVM running for 5.574)
+2025-09-06 17:01:49.643  INFO 6032 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 6032 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 17:01:49.646 DEBUG 6032 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 17:01:49.647  INFO 6032 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 17:01:52.338  INFO 6032 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 17:01:52.338  INFO 6032 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 17:01:52.340  INFO 6032 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-09-06 17:01:52.385  INFO 6032 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.574 seconds (JVM running for 5.511)
+2025-09-06 17:02:50.645  INFO 2280 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 2280 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 17:02:50.647 DEBUG 2280 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 17:02:50.648  INFO 2280 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 17:02:53.192  INFO 2280 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 17:02:53.193  INFO 2280 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 17:02:53.194  INFO 2280 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-09-06 17:02:53.242  INFO 2280 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.399 seconds (JVM running for 5.399)
+2025-09-06 17:08:58.880  INFO 9404 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 9404 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 17:08:58.882 DEBUG 9404 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 17:08:58.883  INFO 9404 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 17:09:01.536  INFO 9404 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 17:09:01.536  INFO 9404 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 17:09:01.538  INFO 9404 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-09-06 17:09:01.588  INFO 9404 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.556 seconds (JVM running for 5.493)
+2025-09-06 17:10:13.915  INFO 1572 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 1572 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 17:10:13.917 DEBUG 1572 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 17:10:13.918  INFO 1572 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 17:10:16.718  INFO 1572 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 17:10:16.719  INFO 1572 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 17:10:16.721  INFO 1572 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-06 17:10:16.764  INFO 1572 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.676 seconds (JVM running for 5.657)
+2025-09-06 17:10:43.973  INFO 9136 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 9136 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 17:10:43.975 DEBUG 9136 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 17:10:43.977  INFO 9136 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 17:10:46.995  INFO 9136 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 17:10:46.996  INFO 9136 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 17:10:46.999  INFO 9136 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-06 17:10:47.063  INFO 9136 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.973 seconds (JVM running for 5.702)
+2025-09-06 17:14:35.267  INFO 10160 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 10160 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 17:14:35.269 DEBUG 10160 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 17:14:35.271  INFO 10160 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 17:14:37.907  INFO 10160 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 17:14:37.908  INFO 10160 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 17:14:37.910  INFO 10160 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-06 17:14:37.957  INFO 10160 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.505 seconds (JVM running for 5.435)
+2025-09-06 17:18:31.592  INFO 6244 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 6244 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 17:18:31.593 DEBUG 6244 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 17:18:31.594  INFO 6244 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 17:18:34.495  INFO 6244 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 17:18:34.496  INFO 6244 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 17:18:34.497  INFO 6244 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-09-06 17:18:34.545  INFO 6244 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.848 seconds (JVM running for 5.718)
+2025-09-06 17:24:54.767  INFO 11028 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 11028 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 17:24:54.768 DEBUG 11028 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 17:24:54.770  INFO 11028 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 17:24:57.506  INFO 11028 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 17:24:57.507  INFO 11028 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 17:24:57.509  INFO 11028 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-06 17:24:57.560  INFO 11028 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.632 seconds (JVM running for 5.309)
+2025-09-06 17:25:15.532  INFO 13528 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 13528 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 17:25:15.534 DEBUG 13528 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 17:25:15.543  INFO 13528 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 17:25:18.232  INFO 13528 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 17:25:18.233  INFO 13528 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 17:25:18.236  INFO 13528 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-06 17:25:18.297  INFO 13528 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.713 seconds (JVM running for 5.527)
+2025-09-06 17:26:29.468  INFO 5804 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 5804 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 17:26:29.469 DEBUG 5804 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 17:26:29.470  INFO 5804 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 17:26:32.295  INFO 5804 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 17:26:32.296  INFO 5804 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 17:26:32.298  INFO 5804 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-06 17:26:32.345  INFO 5804 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.732 seconds (JVM running for 5.695)
+2025-09-06 18:43:27.500  INFO 9168 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 9168 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 18:43:27.502 DEBUG 9168 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 18:43:27.504  INFO 9168 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 18:43:29.846  INFO 9168 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 18:43:29.847  INFO 9168 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 18:43:29.850  INFO 9168 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-06 18:43:29.898  INFO 9168 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.159 seconds (JVM running for 6.042)
+2025-09-06 18:43:29.988  INFO 9168 --- [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2025-09-06 18:43:29.989  INFO 9168 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 18:43:29.990  INFO 9168 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2025-09-06 18:46:10.650  INFO 5436 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 5436 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 18:46:10.652 DEBUG 5436 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 18:46:10.655  INFO 5436 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 18:46:13.045  INFO 5436 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 18:46:13.046  INFO 5436 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 18:46:13.049  INFO 5436 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-06 18:46:13.104  INFO 5436 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.373 seconds (JVM running for 6.293)
+2025-09-06 18:46:13.214  INFO 5436 --- [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2025-09-06 18:46:13.216  INFO 5436 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 18:46:13.217  INFO 5436 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-09-06 18:46:13.456  INFO 5436 --- [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2025-09-06 18:46:13.456  INFO 5436 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 18:46:13.457  INFO 5436 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2025-09-06 18:46:13.708  INFO 5436 --- [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2025-09-06 18:46:13.708  INFO 5436 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 18:46:13.709  INFO 5436 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2025-09-06 18:47:25.477  INFO 13796 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 13796 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 18:47:25.480 DEBUG 13796 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 18:47:25.482  INFO 13796 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 18:47:27.626  INFO 13796 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 18:47:27.627  INFO 13796 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 18:47:27.629  INFO 13796 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-06 18:47:27.672  INFO 13796 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 2.945 seconds (JVM running for 5.497)
+2025-09-06 18:47:27.749  INFO 13796 --- [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2025-09-06 18:47:27.750  INFO 13796 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 18:47:27.750  INFO 13796 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2025-09-06 18:48:30.814  INFO 9308 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 9308 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 18:48:30.815 DEBUG 9308 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 18:48:30.816  INFO 9308 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 18:48:33.023  INFO 9308 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 18:48:33.025  INFO 9308 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 18:48:33.027  INFO 9308 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-09-06 18:48:33.090  INFO 9308 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 2.991 seconds (JVM running for 5.63)
+2025-09-06 18:48:33.162  INFO 9308 --- [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2025-09-06 18:48:33.163  INFO 9308 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 18:48:33.164  INFO 9308 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-09-06 18:49:46.485  INFO 2944 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 2944 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 18:49:46.488 DEBUG 2944 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 18:49:46.489  INFO 2944 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 18:49:49.218  INFO 2944 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 18:49:49.219  INFO 2944 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 18:49:49.222  INFO 2944 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-06 18:49:49.267  INFO 2944 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.579 seconds (JVM running for 5.516)
+2025-09-06 18:51:00.881  INFO 11376 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 11376 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 18:51:00.883 DEBUG 11376 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 18:51:00.884  INFO 11376 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 18:51:03.667  INFO 11376 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 18:51:03.668  INFO 11376 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 18:51:03.670  INFO 11376 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-09-06 18:51:03.712  INFO 11376 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.714 seconds (JVM running for 5.63)
+2025-09-06 18:51:38.296  INFO 9260 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 9260 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 18:51:38.298 DEBUG 9260 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 18:51:38.299  INFO 9260 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 18:51:41.247  INFO 9260 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 18:51:41.248  INFO 9260 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 18:51:41.250  INFO 9260 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-06 18:51:41.295  INFO 9260 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.933 seconds (JVM running for 6.063)
+2025-09-06 18:52:13.222  INFO 7840 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 7840 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 18:52:13.224 DEBUG 7840 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 18:52:13.226  INFO 7840 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 18:52:17.505  INFO 7840 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 18:52:17.506  INFO 7840 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 18:52:17.508  INFO 7840 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-09-06 18:52:17.589  INFO 7840 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 5.412 seconds (JVM running for 7.634)
+2025-09-06 18:53:30.381  INFO 3528 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 3528 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 18:53:30.383 DEBUG 3528 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 18:53:30.387  INFO 3528 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 18:53:33.243  INFO 3528 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 18:53:33.244  INFO 3528 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 18:53:33.246  INFO 3528 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-06 18:53:33.294  INFO 3528 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.861 seconds (JVM running for 5.873)
+2025-09-06 18:54:09.617  INFO 320 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 320 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 18:54:09.619 DEBUG 320 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 18:54:09.620  INFO 320 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 18:54:12.462  INFO 320 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 18:54:12.463  INFO 320 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 18:54:12.465  INFO 320 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-06 18:54:12.515  INFO 320 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.813 seconds (JVM running for 5.684)
+2025-09-06 18:59:16.781  INFO 348 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 348 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 18:59:16.783 DEBUG 348 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 18:59:16.784  INFO 348 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 18:59:19.497  INFO 348 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 18:59:19.498  INFO 348 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 18:59:19.500  INFO 348 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-06 18:59:19.547  INFO 348 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.626 seconds (JVM running for 5.558)
+2025-09-06 18:59:50.445  INFO 6856 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 6856 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 18:59:50.446 DEBUG 6856 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 18:59:50.447  INFO 6856 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 18:59:53.236  INFO 6856 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 18:59:53.237  INFO 6856 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 18:59:53.238  INFO 6856 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-09-06 18:59:53.285  INFO 6856 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.642 seconds (JVM running for 5.554)
+2025-09-06 19:01:55.309  INFO 10068 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 10068 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 19:01:55.311 DEBUG 10068 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 19:01:55.312  INFO 10068 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 19:01:58.109  INFO 10068 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 19:01:58.109  INFO 10068 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 19:01:58.111  INFO 10068 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-06 19:01:58.151  INFO 10068 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.755 seconds (JVM running for 5.69)
+2025-09-06 19:04:56.547  INFO 13304 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 13304 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 19:04:56.549 DEBUG 13304 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 19:04:56.550  INFO 13304 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 19:04:59.158  INFO 13304 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 19:04:59.159  INFO 13304 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 19:04:59.161  INFO 13304 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-06 19:04:59.210  INFO 13304 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.479 seconds (JVM running for 5.433)
+2025-09-06 19:05:46.476  INFO 13128 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 13128 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 19:05:46.477 DEBUG 13128 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 19:05:46.478  INFO 13128 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 19:05:49.265  INFO 13128 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 19:05:49.266  INFO 13128 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 19:05:49.268  INFO 13128 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-06 19:05:49.316  INFO 13128 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.708 seconds (JVM running for 5.747)
+2025-09-06 19:07:15.890  INFO 5576 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 5576 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 19:07:15.892 DEBUG 5576 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 19:07:15.893  INFO 5576 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 19:07:18.548  INFO 5576 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 19:07:18.548  INFO 5576 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 19:07:18.550  INFO 5576 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-06 19:07:18.590  INFO 5576 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.58 seconds (JVM running for 5.653)
+2025-09-06 19:08:19.430  INFO 1852 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 1852 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 19:08:19.432 DEBUG 1852 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 19:08:19.433  INFO 1852 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 19:08:22.488  INFO 1852 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 19:08:22.488  INFO 1852 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 19:08:22.490  INFO 1852 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-06 19:08:22.539  INFO 1852 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.934 seconds (JVM running for 5.844)
+2025-09-06 19:09:48.434  INFO 6472 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 6472 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 19:09:48.437 DEBUG 6472 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 19:09:48.438  INFO 6472 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 19:09:51.232  INFO 6472 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 19:09:51.233  INFO 6472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 19:09:51.234  INFO 6472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-09-06 19:09:51.276  INFO 6472 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.76 seconds (JVM running for 5.671)
+2025-09-06 19:10:07.556  INFO 10764 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 10764 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 19:10:07.558 DEBUG 10764 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 19:10:07.560  INFO 10764 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 19:10:10.377  INFO 10764 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 19:10:10.378  INFO 10764 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 19:10:10.381  INFO 10764 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2025-09-06 19:10:10.445  INFO 10764 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.933 seconds (JVM running for 5.654)
+2025-09-06 19:10:28.966  INFO 3996 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Starting ApiRestJuanApplication using Java 11.0.28 on matudev with PID 3996 (C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan\target\classes started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 19:10:28.970 DEBUG 3996 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 19:10:28.971  INFO 3996 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 19:10:30.532  INFO 3996 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-06 19:10:30.556  INFO 3996 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-06 19:10:30.557  INFO 3996 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2025-09-06 19:10:30.735  INFO 3996 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-06 19:10:30.735  INFO 3996 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1705 ms
+2025-09-06 19:10:31.365  INFO 3996 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-06 19:10:31.384  INFO 3996 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Started ApiRestJuanApplication in 3.157 seconds (JVM running for 3.678)
+2025-09-06 19:10:35.863  INFO 3996 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-06 19:10:35.875  INFO 3996 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-06 19:10:35.882  INFO 3996 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-06 19:10:40.663  INFO 3996 --- [http-nio-8080-exec-3] c.juan.apirestjuan.service.UserService   : Get all users => [com.juan.apirestjuan.model.User@71397169, com.juan.apirestjuan.model.User@53cf69f6, com.juan.apirestjuan.model.User@40024636]
+2025-09-06 19:15:30.449  INFO 13576 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 13576 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 19:15:30.451 DEBUG 13576 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 19:15:30.453  INFO 13576 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 19:15:33.332  INFO 13576 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 19:15:33.333  INFO 13576 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 19:15:33.335  INFO 13576 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-06 19:15:33.382  INFO 13576 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.819 seconds (JVM running for 5.754)
+2025-09-06 19:16:12.764  INFO 1252 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 1252 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 19:16:12.767 DEBUG 1252 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 19:16:12.768  INFO 1252 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 19:16:15.726  INFO 1252 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 19:16:15.726  INFO 1252 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 19:16:15.729  INFO 1252 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2025-09-06 19:16:15.789  INFO 1252 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.972 seconds (JVM running for 5.928)
+2025-09-06 19:20:13.475  INFO 6780 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 6780 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 19:20:13.478 DEBUG 6780 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 19:20:13.479  INFO 6780 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 19:20:16.276  INFO 6780 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 19:20:16.276  INFO 6780 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 19:20:16.278  INFO 6780 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-06 19:20:16.323  INFO 6780 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.683 seconds (JVM running for 5.683)
+2025-09-06 19:27:46.185  INFO 6284 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 6284 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 19:27:46.186 DEBUG 6284 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 19:27:46.187  INFO 6284 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 19:27:48.965  INFO 6284 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 19:27:48.966  INFO 6284 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 19:27:48.967  INFO 6284 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-09-06 19:27:49.014  INFO 6284 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.73 seconds (JVM running for 5.876)
+2025-09-06 19:31:27.869  INFO 2756 --- [main] c.j.a.controller.UserControllerTest      : Starting UserControllerTest using Java 11.0.28 on matudev with PID 2756 (started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 19:31:27.871 DEBUG 2756 --- [main] c.j.a.controller.UserControllerTest      : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 19:31:27.872  INFO 2756 --- [main] c.j.a.controller.UserControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 19:31:30.580  INFO 2756 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-06 19:31:30.581  INFO 2756 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-06 19:31:30.583  INFO 2756 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-06 19:31:30.635  INFO 2756 --- [main] c.j.a.controller.UserControllerTest      : Started UserControllerTest in 3.561 seconds (JVM running for 5.445)
+2025-09-06 19:32:25.312  INFO 5544 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Starting ApiRestJuanApplication using Java 11.0.28 on matudev with PID 5544 (C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan\target\classes started by numbe in C:\Users\numbe\Desktop\Estudio_Dev\Project_Juan\API_REST_Juan)
+2025-09-06 19:32:25.316 DEBUG 5544 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Running with Spring Boot v2.7.0, Spring v5.3.20
+2025-09-06 19:32:25.317  INFO 5544 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-09-06 19:32:26.889  INFO 5544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-09-06 19:32:26.913  INFO 5544 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-06 19:32:26.914  INFO 5544 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2025-09-06 19:32:27.076  INFO 5544 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-06 19:32:27.077  INFO 5544 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1680 ms
+2025-09-06 19:32:27.693  INFO 5544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-09-06 19:32:27.717  INFO 5544 --- [main] c.j.apirestjuan.ApiRestJuanApplication   : Started ApiRestJuanApplication in 3.149 seconds (JVM running for 3.663)
+2025-09-06 19:32:35.926  INFO 5544 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-06 19:32:35.928  INFO 5544 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-06 19:32:35.930  INFO 5544 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-06 19:32:36.115  INFO 5544 --- [http-nio-8080-exec-1] c.juan.apirestjuan.service.UserService   : Tax_id does not comply with the RFC format, Set Gen => 0002314569871 - AARR990101XXX
+2025-09-06 19:32:36.151 ERROR 5544 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Tax_id does not comply with the RFC format, Set Gen] with root cause
+
+java.lang.IllegalArgumentException: Tax_id does not comply with the RFC format, Set Gen
+	at com.juan.apirestjuan.service.UserService.validatorUser(UserService.java:80) ~[classes/:na]
+	at com.juan.apirestjuan.service.UserService.createUser(UserService.java:50) ~[classes/:na]
+	at com.juan.apirestjuan.controller.UserController.createUser(UserController.java:28) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.63.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.63.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2025-09-06 19:32:44.189  INFO 5544 --- [http-nio-8080-exec-4] c.juan.apirestjuan.service.UserService   : Delete user by id => 1
+2025-09-06 19:32:51.934  INFO 5544 --- [http-nio-8080-exec-5] c.juan.apirestjuan.service.UserService   : Get all users => [com.juan.apirestjuan.model.User@26f7825d, com.juan.apirestjuan.model.User@1b331622]
+2025-09-06 19:33:02.383  INFO 5544 --- [http-nio-8080-exec-6] c.juan.apirestjuan.service.UserService   : Get all users => [com.juan.apirestjuan.model.User@26f7825d, com.juan.apirestjuan.model.User@1b331622]
+2025-09-06 19:33:13.170  INFO 5544 --- [http-nio-8080-exec-7] c.juan.apirestjuan.service.UserService   : Tax_id does not comply with the RFC format, Set Gen => 0002314569871 - AARR990101XXX
+2025-09-06 19:33:13.174 ERROR 5544 --- [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Tax_id does not comply with the RFC format, Set Gen] with root cause
+
+java.lang.IllegalArgumentException: Tax_id does not comply with the RFC format, Set Gen
+	at com.juan.apirestjuan.service.UserService.validatorUser(UserService.java:80) ~[classes/:na]
+	at com.juan.apirestjuan.service.UserService.createUser(UserService.java:50) ~[classes/:na]
+	at com.juan.apirestjuan.controller.UserController.createUser(UserController.java:28) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.63.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.63.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2025-09-06 19:33:49.440  INFO 5544 --- [http-nio-8080-exec-9] c.juan.apirestjuan.service.UserService   : Phone does not comply with the format, set Gen => +52 1122 3344 - +1212555123
+2025-09-06 19:33:49.443 ERROR 5544 --- [http-nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Phone does not comply with the format] with root cause
+
+java.lang.IllegalArgumentException: Phone does not comply with the format
+	at com.juan.apirestjuan.service.UserService.validatorUser(UserService.java:90) ~[classes/:na]
+	at com.juan.apirestjuan.service.UserService.createUser(UserService.java:50) ~[classes/:na]
+	at com.juan.apirestjuan.controller.UserController.createUser(UserController.java:28) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.63.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.20.jar:5.3.20]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.63.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.20.jar:5.3.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.63.jar:9.0.63]
+	at java.base/java.lang.Thread.run(Thread.java:829) ~[na:na]
+
+2025-09-06 19:34:07.729  INFO 5544 --- [http-nio-8080-exec-2] c.juan.apirestjuan.service.UserService   : Create user correct => com.juan.apirestjuan.model.User@4512b9e4
+2025-09-06 19:34:12.997  INFO 5544 --- [http-nio-8080-exec-1] c.juan.apirestjuan.service.UserService   : Get all users => [com.juan.apirestjuan.model.User@26f7825d, com.juan.apirestjuan.model.User@1b331622, com.juan.apirestjuan.model.User@4512b9e4]

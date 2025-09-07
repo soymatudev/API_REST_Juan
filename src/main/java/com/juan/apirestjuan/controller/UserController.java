@@ -2,6 +2,7 @@ package com.juan.apirestjuan.controller;
 
 import com.juan.apirestjuan.model.User;
 import com.juan.apirestjuan.service.UserService;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.*;
@@ -23,8 +24,8 @@ public class UserController {
     }
 
     @PostMapping
-    public User createUser(@RequestBody User user) throws Exception{
-        return userService.createUser(user);
+    public ResponseEntity<User> createUser(@RequestBody User user) throws Exception{
+        return new ResponseEntity<>(userService.createUser(user), HttpStatus.CREATED);
     }
 
     @PatchMapping("/{id}")
@@ -35,10 +36,10 @@ public class UserController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<User> deleteUser(@PathVariable Long id) {
+    public ResponseEntity<ResponseEntity> deleteUser(@PathVariable Long id) {
         return userService.deleteUser(id)
-                ?  ResponseEntity.noContent().build()
-                : ResponseEntity.notFound().build();
+                ? new ResponseEntity<>(ResponseEntity.noContent().build(), HttpStatus.NO_CONTENT)
+                : new ResponseEntity<>(ResponseEntity.noContent().build(), HttpStatus.NOT_FOUND);
     }
 
     @GetMapping
