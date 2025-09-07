@@ -33,7 +33,7 @@ public class UserService {
         addresses.add(new Address(1L, "Casa", "Calle 123", "UK"));
         users.add(new User(idCounter++, "Admin", passwordEncrypt, "GAFA980602F82", "admin@gmail.com", "+52 1122 3344", addresses, TimeUtil.ValidCreated_at()));
         users.add(new User(idCounter++, "Juan", passwordEncrypt, "", "juan@gmail.com", "+52 1122 3344", addresses, TimeUtil.ValidCreated_at()));
-        users.add(new User(idCounter++, "Zian", passwordEncrypt, "APMJ0300547Z4", "zian@gmail.com", "+52 1122 3344", addresses, TimeUtil.ValidCreated_at()));
+        users.add(new User(idCounter++, "Zian", passwordEncrypt, "APMJ03005g47Z4", "zian@gmail.com", "+52 1122 3344", addresses, TimeUtil.ValidCreated_at()));
     }
 
     public List<User> getAllUsers(){
@@ -47,7 +47,7 @@ public class UserService {
     }
 
     public User createUser(User user) throws Exception {
-        validatorUser(user);
+        validatorUser(user, "create");
 
         String passwordEncrypt = this.aesUtil.getEncrypt(user.getPassword());
         user.setId(idCounter++);
@@ -59,7 +59,7 @@ public class UserService {
     }
 
     public Optional<User> updateUser(Long id, User updateUser) throws Exception {
-        validatorUser(updateUser);
+        validatorUser(updateUser, "update");
 
         String passwordEncrypt = this.aesUtil.getEncrypt(updateUser.getPassword());
         return getUserById(id).map(user -> {
@@ -73,13 +73,13 @@ public class UserService {
         });
     }
 
-    public void validatorUser(User user) {
+    public void validatorUser(User user, String type) {
         if (!ValidatorUtil.isValidFormatTax_id(user.getTax_id())){
             printLog.info("Tax_id does not comply with the RFC format, Set Gen => {} - AARR990101XXX", user.getTax_id());
             user.setTax_id("AARR990101XXX");
             throw new IllegalArgumentException("Tax_id does not comply with the RFC format, Set Gen");
         }
-        if (ValidatorUtil.isValidUniqueTax_id(users,  user.getTax_id())) {
+        if (type != "update" && ValidatorUtil.isValidUniqueTax_id(users,  user.getTax_id())) {
             printLog.info("The Tax_Id already exists in the Database, set Gen => {} - AARR990101XXX", user.getTax_id());
             user.setTax_id("AARR990101XXX");
             throw new IllegalArgumentException("The Tax_Id already exists in the Database");
