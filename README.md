@@ -16,10 +16,33 @@ REST API in Java 11 (11.0.28) with Spring Boot, includes unit tests and a Postma
 - GET
   /users?filter=[email|id|name|phone|tax_id|created_at]+[co|eq|sw|ew]+[va
   lue]
-- POST /users
-- PATCH /users/{id}
-- DELETE /users/{id}
-- POST /login
+- POST /users - Create User \n
+- PATCH /users/{id} - Update User
+- DELETE /users/{id} - Delete User
+- POST /login - System Login
+
+### Format Create User
+{
+"name": "Char_Test_01",
+"email": "char01@gmail.com",
+"password": "juan",
+"phone": "+5211223344",
+"tax_id": "GAMJ0501147Z4",
+"address": [
+{
+"id": 1,
+"name": "Trabajo",
+"street": "Calle siempre viva 123",
+"country": "UK"
+},
+{
+"id": 2,
+"name": "Trabajo",
+"street": "Calle 123",
+"country": "MX"
+}
+]
+}
 
 ## Project structure
 src/main/java/com/juan/apirestjuan \
